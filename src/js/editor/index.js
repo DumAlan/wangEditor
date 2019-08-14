@@ -235,7 +235,7 @@ Editor.prototype = {
         }
 
         this.selection.createRangeByElem($last, false, true)
-        this.selection.restoreSelection()
+        // this.selection.restoreSelection()
     },
 
     // 绑定事件
